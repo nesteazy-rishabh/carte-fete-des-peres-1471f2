@@ -1,41 +1,28 @@
 # 💌 La carte de fête des Pères pour Ghislain
 
-Les **4 photos sont déjà en place** ✅ La carte est prête. Il reste **une seule étape** : obtenir le lien à envoyer par courriel.
+La carte est **en ligne** ✅ — thème des Canadiens de Montréal 🇨🇦🏒
 
-**Pour voir le résultat tout de suite :** double-clique sur `index.html` → il s'ouvre dans ton navigateur. Clique sur la carte pour la déplier (confettis 🎉).
+## 🔗 Le lien à envoyer à papa
 
----
+**https://nesteazy-rishabh.github.io/carte-fete-des-peres-1471f2/**
 
-## Obtenir le lien à envoyer (gratuit, 1 minute)
+Il suffit de lui envoyer ce lien par courriel ou par message. Il clique → la carte s'ouvre (confettis 🎉).
 
-Le plus simple : **Netlify Drop**.
-
-1. Va sur **https://app.netlify.com/drop**
-2. **Glisse-dépose le dossier `sophie-dad` au complet** (avec `index.html` ET les 4 photos) dans la grande zone.
-3. Attends ~10 secondes → tu obtiens un lien du genre `https://un-nom-rigolo.netlify.app`.
-4. **C'est ce lien que tu envoies à ton papa par courriel !** 🎉
-
-> Crée un compte gratuit (Google/courriel) sur Netlify si tu veux garder le lien actif pour toujours et lui donner un plus joli nom.
-
-### 🖼️ Pour que la photo d'aperçu s'affiche dans le courriel (optionnel mais joli)
-
-Une fois que tu as ton lien Netlify (ex. `https://ma-carte.netlify.app`) :
-
-1. Ouvre `index.html` dans un éditeur de texte.
-2. Cherche `REMPLACE-PAR-TON-LIEN-NETLIFY` (tout en haut du fichier).
-3. Remplace `https://REMPLACE-PAR-TON-LIEN-NETLIFY.netlify.app` par ton vrai lien — il doit rester `/famille.jpeg` à la fin.
-   Exemple final : `https://ma-carte.netlify.app/famille.jpeg`
-4. Redépose le dossier sur Netlify Drop pour mettre à jour.
-
-> Sans ça, la carte fonctionne parfaitement — c'est juste la **petite photo d'aperçu** dans le courriel/les messages qui ne s'affichera pas.
-
-**Alternative tout aussi simple :** **https://tiiny.host** — compresse le dossier en `.zip`, dépose-le, et tu obtiens un lien.
-
-> ⚠️ Envoie bien **tout le dossier** (l'`index.html` et les 4 images ensemble), sinon les photos ne s'afficheront pas.
+> Le lien est **non répertorié** : il n'apparaît pas dans les moteurs de recherche (Google, etc.). Seules les personnes à qui tu envoies le lien le verront. *(Note : il n'y a pas de mot de passe — toute personne qui a le lien peut l'ouvrir.)*
 
 ---
 
-## 📸 Où vont les photos (déjà fait)
+## ✏️ Changer une photo, un mot ou le prénom
+
+Le site est hébergé sur **GitHub Pages**, gratuitement. Tout est dans le dépôt :
+**https://github.com/nesteazy-rishabh/carte-fete-des-peres-1471f2**
+
+Le plus simple, **sans rien installer** :
+
+1. Ouvre le dépôt ci-dessus dans ton navigateur (connecté à GitHub).
+2. Pour **remplacer une photo** : clique sur le fichier (ex. `famille.jpeg`) → bouton « ... » → **Upload / Replace** avec une nouvelle image **du même nom**.
+3. Pour **changer un texte** (le prénom `Ghislain`, le message, les légendes) : ouvre `index.html` → icône crayon ✏️ → modifie → **Commit changes**.
+4. Le site se met à jour tout seul en ~1 minute.
 
 | Fichier | Emplacement dans la carte |
 |---------|---------------------------|
@@ -44,15 +31,13 @@ Une fois que tu as ton lien Netlify (ex. `https://ma-carte.netlify.app`) :
 | `nos-aventures.jpeg` | « Nos aventures » (à droite du duo) |
 | `trois-generations.jpeg` | « Trois générations de Poirier » (photo vedette) |
 
-Pour changer une photo : remplace simplement le fichier par un autre du même nom.
-
 ---
 
-## ✏️ À vérifier avant d'envoyer (ouvre `index.html` dans un éditeur de texte)
+## 🔒 Bon à savoir
 
-- **Le prénom : `Ghislain`** — écrit à la française. S'il l'écrit autrement, cherche `Ghislain` (il apparaît 2 fois : couverture + intérieur) et corrige.
-- **Les petites légendes** sous les photos : « Papa & moi », « Nos aventures », « Trois générations de Poirier ». Change-les pour tes mots si tu veux.
-- **Le message** à l'intérieur est exactement le tien 💛
+- **Le dépôt est public** (obligatoire pour l'hébergement gratuit GitHub Pages). Les photos sont donc téléchargeables par quelqu'un qui connaît le lien. Pour une carte-cadeau, c'est généralement correct.
+- Pour **retirer la carte d'internet** : supprime le dépôt sur GitHub (Settings → Delete this repository), ou demande-moi de le faire.
+- Tu veux un **vrai mot de passe** (papa reçoit un code par courriel) ? C'est possible gratuitement en déplaçant la carte sur Cloudflare Pages — demande-le simplement.
 
 ---
 
